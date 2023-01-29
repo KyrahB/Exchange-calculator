@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+    to top,white 0%,white 50%, pink 50%,pink 100%);
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-container{
+    min-width: 900px;
+    background-color: white;
+    color: black;
+    border-radius: 0.4rem;
+    padding: 4rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.24)0px 3px 8px;
+}
+
+.currency{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currency select{
+    padding: 10px 20px 10px 10px;
+    appearance: none;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    background: transparent;
+    background-position: right 10px top 50%,0,0;
+    background-size: 12px auto,100%;
+    background-repeat: no-repeat;
+}
+
+.currency input{
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+
+.swap-rate-container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+select: focus,
+input: focus,
+button: focus {
+    outline: 0;
+}
+
+
+.bi-shuffle
+{
+color:  #e0478e;
+font-size: 23px;
+
+}
+
+/* 
+footer{
+    margin-top: 250px;
+} */
+
+
